@@ -1,0 +1,65 @@
+    1  sudo ls
+    2  getent group | grep ricardo
+    3  yum install epel-release -y
+    4  sudo yum install epel-release -y
+    5  yum -y update
+    6  sudo yum -y update
+    7  yum install tmux
+    8  sudo yum install tmux
+    9  install htop 
+   10  yum install htop 
+   11  sudo yum install htop 
+   12  tmux 
+   13  sudo yum install git
+   14  git config --global user.email "ric117_pesar@gmail.com"
+   15  git config --global --list 
+   16  mkdir Practica1
+   17  cd Practica1/
+   18  git init 
+   19  git remote add origin https://github.com/ricpesar/Practica1.git
+   20  echo "Practica1 , Read.md" >> README.md
+   21  git add README.md
+   22  git commit -m "Primer commit Practica1"
+   23  git push -u origin master
+   24  cd ..
+   25  pwd
+   26  mkdir ~/.ssh
+   27  cd ~/.ssh
+   28  ssh-keygen -t rsa -b 4096 -C "ric117_pesar@hotmail.com"
+   29  ssh-add ~/.ssh/id_rsa
+   30  ps aux | grep ssh
+   31  eval "ssh-agent -s"
+   32  ssh-add ~/.ssh/id_rsa
+   33  sudo ssh-add ~/.ssh/id_rsa
+   34  ps aux | grep ssh
+   35  kill 902
+   36  sudo kill 902
+   37  kill 902
+   38  ps aux | grep ssh
+   39  sudo kill 18191
+   40  sudo kill 18201
+   41  sudo kill 18317
+   42  ps aux | grep ssh
+   43  sudo kill 2322
+   44  sudo ssh-add ~/.ssh/id_rsa
+   45  eval "ssh-agent -s"
+   46  sudo ssh-add ~/.ssh/id_rsa
+   47  ssh-add ~/.ssh/
+   48  cd .shh
+   49  cd /.shh
+   50  cd .shh
+   51  cd .sdh
+   52  cd .ssh
+   53  ls
+   54  clear
+   55  ls
+   56  ssh-add ~/.ssh/id_rsa
+   57  eval $(ssh-agent -s)
+   58  ssh-add ~/.ssh/id_rsa
+   59  eval $(ssh-agent -s)
+   60  ssh-add ~/.ssh/id_rsa
+   61  cd ../Practica1/
+   62  git branch -a
+   63  git checkout -b newbranch
+   64  git branch -a
+   65  history >> comandos.txt
